@@ -11,6 +11,11 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.CheckedTextView;
+import android.widget.MultiAutoCompleteTextView;
+import android.widget.Toast;
 
 import com.ximsfei.dynamicskindemo.tab.FirstFragment;
 import com.ximsfei.dynamicskindemo.tab.LastFragment;
@@ -22,6 +27,7 @@ import java.util.List;
 
 import skin.support.SkinCompatManager;
 import skin.support.app.SkinCompatActivity;
+import skin.support.utils.SkinLog;
 import skin.support.utils.SkinPreference;
 
 /**
